@@ -7,7 +7,8 @@
     "dev": "wrangler dev --https-key-path ./localhost-key.pem --https-cert-path ./localhost.pem --local-protocol https",
     "start": "wrangler dev",
     "test": "vitest",
-    "cf-typegen": "wrangler types"
+    "cf-typegen": "wrangler types",
+    "wrangler": "npx wrangler types"
   },
   "devDependencies": {
     "@cloudflare/vitest-pool-workers": "^0.1.0",
